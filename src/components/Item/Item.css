@@ -1,0 +1,254 @@
+/* ===== Reset y base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background: #faf9f6;
+  color: #3a2f33;
+}
+
+/* Contenedor de React: el footer queda siempre abajo */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ===== Tipografía ===== */
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  color: #b964a4;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: rgb(16, 17, 19);
+  margin: 3rem 0;
+}
+
+.parrafo {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+/* ===== Botones ===== */
+.btn {
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+
+/* ===== Header y footer ===== */
+header,
+footer {
+  background: #ebc6c0;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  justify-content: center;
+}
+
+/* Logo */
+.div-logo a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+
+.div-logo img {
+  width: 5rem;
+  height: auto;
+}
+
+/* Navegación */
+.header-nav {
+  margin-right: 2rem;
+}
+
+.header-nav ul,
+footer .footer-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav ul li a {
+  font-size: 2rem;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.footer-list li {
+  padding: 1rem;
+}
+
+.footer-list img {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+/* ===== Utilidades de color ===== */
+.bg-primary {
+  background-color: rgb(244, 244, 252);
+}
+
+.bg-secondary {
+  background-color: #b964a4;
+}
+
+.text-light {
+  color: #ebc6c0;
+}
+
+.text-dark {
+  color: rgb(241, 235, 235);
+}
+
+.text-secondary {
+  color: #b964a4;
+}
+
+/* ===== Productos ===== */
+.contenedor-tarjetas,
+.products-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #ebc6c0;
+  width: 30rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  white-space: pre-line;
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+  padding: 10px;
+}
+
+/* ===== Contacto ===== */
+.titulo-contacto {
+  margin: 2rem 0;
+}
+
+.form-contacto {
+  background-color: #ebc6c0;
+  color: #b964a4;
+  width: 100%;
+  max-width: 50rem;
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  margin: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.grupo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== Carrito ===== */
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
+.producto-carrito {
+  background-color: #ebc6c0;
+  width: 100%;
+  max-width: 60rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  margin: 0 auto 1.5rem auto;
+}
+
+.producto-carrito img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.info-producto {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+  }
+}

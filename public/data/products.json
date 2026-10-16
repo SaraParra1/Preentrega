@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "OSO",
+    "description": "Peluche tejido",
+    "price": 50000,
+    "image": "/img/footware/oso.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "GROGU",
+    "description": "Peluche tejido",
+    "price": 50000,
+    "image": "/img/footware/grogu.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "CONEJO",
+    "description": "Peluche tejido",
+    "price": 50000,
+    "image": "/img/footware/conejo.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "CORAZON",
+    "description": "Peluche tejido",
+    "price": 50000,
+    "image": "/img/footware/corazon.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "FLOR",
+    "description": "Peluche tejido",
+    "price": 50000,
+    "image": "/img/footware/flor.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "DINO",
+    "description": "Peluche tejido",
+    "price": 50000,
+    "image": "/img/footware/dino.jpeg"
+  }
+]
